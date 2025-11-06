@@ -1,0 +1,93 @@
+body {
+  background-color: #0f172a;
+  color: #f8fafc;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #3b82f6;
+  margin-bottom: 1.5rem;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.tab {
+  background: transparent;
+  border: 2px solid #3b82f6;
+  color: #3b82f6;
+  padding: 0.6rem 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.tab:hover,
+.tab.active {
+  background: #3b82f6;
+  color: #fff;
+}
+
+.card {
+  background: #1e293b;
+  border-radius: 15px;
+  padding: 1.8rem;
+  width: 300px;
+  margin: 0 auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+input {
+  width: 90%;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 0.8rem;
+  outline: none;
+  text-align: center;
+}
+
+button {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+.result {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+.info {
+  color: #a5b4fc;
+}
+
+.error {
+  color: #f87171;
+}
+
+.quote {
+  margin-top: 1rem;
+  font-style: italic;
+  color: #93c5fd;
+}
